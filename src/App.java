@@ -3,7 +3,7 @@ import javax.swing.*;
 import static java.lang.System.*;
 public class App extends JFrame{
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        App app = new App();
     }
     private final Integer xSize = 1600;
     private final Integer ySize = 900;
