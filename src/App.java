@@ -12,5 +12,6 @@ public class App extends JFrame{
         this.setSize(xSize, ySize);
         this.setVisible(true);
         this.setResizable(false);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }
