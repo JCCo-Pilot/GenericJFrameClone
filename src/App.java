@@ -10,5 +10,7 @@ public class App extends JFrame{
     public App (){
         super();
         this.setSize(xSize, ySize);
+        this.setVisible(true);
+        this.setResizable(false);
     }
 }
